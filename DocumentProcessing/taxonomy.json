@@ -1,0 +1,439 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "SingaramEnterprise.HR.Resume",
+      "Group": "Singaram Enterprise",
+      "Category": "HR",
+      "Name": "Resume",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "SingaramEnterprise.HR.Resume.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.FullName",
+          "FieldName": "Full Name",
+          "IsMultiValue": false,
+          "Type": "Name",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.HandphoneNumber",
+          "FieldName": "Handphone Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.Skills",
+          "FieldName": "Skills",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "k"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.Experience",
+          "FieldName": "Experience",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#bed260"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.ExpectedSalary",
+          "FieldName": "Expected Salary",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#c290d5"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "x"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.Nationality",
+          "FieldName": "Nationality",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#89a4db"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.EmailAddress",
+          "FieldName": "Email Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#ddd360"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.HR.Resume.EarliestStartDate",
+          "FieldName": "Earliest Start Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8c15c0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "SingaramEnterprise.Accounts.Invoices",
+      "Group": "Singaram Enterprise",
+      "Category": "Accounts",
+      "Name": "Invoices",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "SingaramEnterprise.Accounts.Invoices.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.InvoiceNumber",
+          "FieldName": "Invoice Number",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.InvoiceDate",
+          "FieldName": "Invoice Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.Terms",
+          "FieldName": "Terms",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.Bill-toAddress",
+          "FieldName": "Bill-to Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.AccountsPayableReceivable",
+          "FieldName": "Accounts Payable/Receivable",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fc27ca"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.ShipTo",
+          "FieldName": "Ship-to Address",
+          "IsMultiValue": false,
+          "Type": "Address",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#e363a2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "h"
+            }
+          ]
+        },
+        {
+          "FieldId": "SingaramEnterprise.Accounts.Invoices.BalanceDue",
+          "FieldName": "Balance Due",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#87c5b3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "Singaram Enterprise",
+      "Categories": [
+        "HR",
+        "Accounts"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}

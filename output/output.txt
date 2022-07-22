@@ -1,0 +1,37 @@
+INVOICE
+
+Singaram Design Factory 123 UiPath Road Singapore +65 98263305, singaram888@gmail.com
+
+DATE 22/07/2022
+
+INVOICE NO.1234556
+
+<Payment terms (due on receipt,due in X days)>
+
+BILL TO             SHIP TO              
+Orangina            <Name / Dept>        
+factory             <Client Company Name>
+44 Sembawang Road   <Address>            
++65 98331996        <Phone>              
+
+DESCRIPTION
+
+Item
+
+Remarks / Payment Instructions:
+
+QTY UNIT PRICE TOTAL
+
+1 111
+
+222.00 0.00 0.00 0.00 0.00 0.00
+
+SUBTOTAL
+
+222.00
+
+DISCOUNT            0.00  
+TAX RATE            0.00% 
+TOTAL TAX           0.00  
+SHIPPING/HANDLING   28.00 
+Balance Due         $250 -
